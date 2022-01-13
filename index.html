@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>C!A!P!O!O</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeOxBSo4m6HVObfrdylQYNqTpGHSxYUJrUQ&usqp=CAU")	;
+            background-size: contain;
+        }
+        h1 {
+            color: 	#f2f3f0;
+            font-size: 150px;
+            font-weight:900;
+            text-align: center;
+            
+        }   
+        h2{
+            color:#d9dcdf;
+            text-align: center;
+            font-size: 120px;
+            
+        }   
+        
+        h3{
+            color:#D2E9FF;
+            text-align: center;
+            font-size: 80px;
+            
+        }    
+        h4{
+            color:#1d31e6;
+            text-align: center;
+            font-size: 90px;
+            
+        }   
+        p{
+            color:#1d31e6;
+            text-align: center;
+            font-size: 90px;
+            
+        }   
+        
+    </style>
+</head>
+<body>
+        
+    <h1>氣屁氣咖波╰（‵□′）╯</h1>
+    <h2>遊戲規則</h2>
+    <h3>點擊森77的咖波，把他打到哭出來，誰叫咖波讓兔兔不開心(ꐦ ಠ皿ಠ )</h3>
+    <br>
+    <marquee behavior="alternate" scrollamount="200"><a href="https://zh-tw.facebook.com/capoocat"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVElw9YinH0PaAO1K23lZED9W_36Vb31BpCA&usqp=CAU" height="500"></a></marquee>
+    <br>
+    <h4>打不到嚕嚕嚕~~~(//●⁰౪⁰●)//</h4>
+    <br>
+    <p><iframe width="1120" height="630" src="https://www.youtube.com/embed/0WREtskMy1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+</body>
+<html lang="zh_tw"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script>
+    var act_timer;
+    var head=0.75;
+    var sec=30;
+    var cnt=0;
+    var in_a=0;
+    function begin()
+    {
+       if (in_a==0)
+       {
+            act_timer=setInterval("active()",1000);
+        cnt=0;
+        sec=30;
+           in_a=1;
+       }
+    }
+    function ck (aa)
+    {
+         if ( aa.src.indexOf("yy.png")>=0 && in_a==1)
+         {
+            aa.src="yi.png";
+            cnt=cnt+1;
+            document.getElementById("ans").innerHTML
+            ="已經打中"+cnt+"隻，剩下"+sec+"秒";
+          }
+    }
+    function active()
+    {
+        sec=sec-1;
+         document.getElementById("ans").innerHTML
+            ="已經打中"+cnt+"隻，剩下"+sec+"秒";
+         if (sec==0) 
+         {
+                clearInterval(act_timer);
+                in_a=0;
+         }
+        if (Math.random()>head)
+              document.getElementById("m1_1").src="yy.png";
+        else 
+             document.getElementById("m1_1").src="yu.png";   
+        if (Math.random()>head)
+              document.getElementById("m1_2").src="yy.png";
+        else 
+             document.getElementById("m1_2").src="yu.png";
+        if (Math.random()>head)
+              document.getElementById("m1_3").src="yy.png";
+        else 
+             document.getElementById("m1_3").src="yu.png";
+        if (Math.random()>head)
+              document.getElementById("m2_1").src="yy.png";
+        else 
+             document.getElementById("m2_1").src="yu.png";
+         if (Math.random()>head)
+              document.getElementById("m2_2").src="yy.png";
+        else 
+             document.getElementById("m2_2").src="yu.png";
+        if (Math.random()>head)
+              document.getElementById("m2_3").src="yy.png";
+        else 
+             document.getElementById("m2_3").src="yu.png";
+        if (Math.random()>head)
+              document.getElementById("m3_1").src="yy.png";
+        else 
+             document.getElementById("m3_1").src="yu.png";
+         if (Math.random()>head)
+              document.getElementById("m3_2").src="yy.png";
+        else 
+             document.getElementById("m3_2").src="yu.png";
+        if (Math.random()>head)
+              document.getElementById("m3_3").src="yy.png";
+        else 
+             document.getElementById("m3_3").src="yu.png";
+    }
+    </script>
+    <title>打咖波</title>
+    </head>
+    <body>
+    <article>
+    <section id="ans">已經打中7隻，剩下0秒</section>
+    <div><input type="button" name="b1" value="在哭啊咖波" onclick="begin()"></div>
+    <table border="10">
+    <tbody><tr>
+    <td><img id="m1_1" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m1_2" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m1_3" src="yu777.png" onclick="ck(this)"></td>
+    </tr>
+    <tr>
+    <td><img id="m2_1" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m2_2" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m2_3" src="yu777.png" onclick="ck(this)"></td>
+    </tr>
+    <tr>
+    <td><img id="m3_1" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m3_2" src="yu777.png" onclick="ck(this)"></td>
+    <td><img id="m3_3" src="yu777.png" onclick="ck(this)"></td>
+    </tr>
+    </tbody></table>
+    </article>
+    
+    
+    </body></html>
+</html>
